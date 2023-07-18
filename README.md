@@ -47,8 +47,8 @@ const MyCompontent = () => {
   return (
     <div>
       <h1>Device Test!</h1>
-      {isXsDown && <p>You are an XsDown device</p>}
-      {isOnlyXs && <p>You have an OnlyXs device</p>}
+      {xsDown && <p>You are an XsDown device</p>}
+      {onlyXs && <p>You have an OnlyXs device</p>}
       {/* ... */}
     </div>
   )

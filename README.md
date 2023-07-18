@@ -31,17 +31,17 @@ const MyCompontent = () => {
   const deviceSizes = useDeviceSize()
 
   const {
-    isXsDown,
-    isOnlyXs,
-    isXsUp,
-    isSmDown,
-    isOnlySm,
-    isSmUp,
-    isMdDown,
-    isOnlyMd,
-    isMdUp,
-    isLgDown,
-    isLgUp
+    xsDown, //(max-width: 575.98px)
+    onlyXs, //(min-width: 576px) and (max-width: 767.98px)
+    xsUp,   //(min-width: 576px)
+    smDown, //(max-width: 767.98px)
+    onlySm, //(min-width: 768px) and (max-width: 991.98px)
+    smUp,   //(min-width: 768px)
+    mdDown, //(max-width: 991.98px)
+    onlyMd, //(min-width: 992px) and (max-width: 1199.98px)
+    mdUp,   //(min-width: 992px)
+    lgDown, //(max-width: 1199.98px)
+    lgUp    //(min-width: 1200px)
   } = deviceSizes;
 
   return (

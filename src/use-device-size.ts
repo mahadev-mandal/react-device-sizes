@@ -21,7 +21,7 @@ export function useDeviceSize() {
     xsUp: useMediaQuery('(min-width: 576px)'),
     smDown: useMediaQuery('(max-width: 767.98px)'),
     onlySm: useMediaQuery('(min-width: 768px) and (max-width: 991.98px)'),
-    smUp: useMediaQuery('(min-width: 768px'),
+    smUp: useMediaQuery('(min-width: 768px)'),
     mdDown: useMediaQuery('(max-width: 991.98px)'),
     onlyMd: useMediaQuery('(min-width: 992px) and (max-width: 1199.98px)'),
     mdUp: useMediaQuery('(min-width: 992px)'),

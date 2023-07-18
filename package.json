@@ -1,6 +1,6 @@
 {
   "name": "react-device-sizes",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Create or use device breakpoints in react",
   "scripts": {
     "build": "rollup -c",

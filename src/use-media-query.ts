@@ -4,7 +4,7 @@ export interface MediaQueryType {
   query?: string
   width?: string | number
   maxWidth?: string | number
-  minWidht?: string | number
+  minWidth?: string | number
 }
 
 const returnStringVal = (value: string | number) => {

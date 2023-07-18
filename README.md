@@ -1,17 +1,27 @@
 # React device sizes
 
 React Device Sizes is a React library that provides hooks to easily determine the current device size or create custom breakpoints for responsive designs.
-## Install
+## Installation
+
+You can install React Device Sizes via npm or yarn:
 
 ```console
 $ npm install react-device-sizes --save
 ```
+or
+
+```console
+$ yarn add react-device-sizes
+```
 
 ## Usage
 
-### With Hooks
+React Device Sizes provides two main hooks: `useDeviceSize` and `useMediaQuery`. You can choose between predefined breakpoints or create custom breakpoints based on your specific design requirements.
 
-#### Predefined breakpoints
+### UseDeviceSize
+
+The `useDeviceSize` hook provides predefined breakpoints that you can utilize in your components.
+
 
 ```jsx
 import React from 'react'
@@ -44,7 +54,9 @@ const MyCompontent = () => {
   )
 }
 ```
-#### Custom Breakpoints
+### UseMediaQuery
+
+The `useMediaQuery` hook allows you to create your own custom breakpoints by specifying the desired screen dimensions.
 
 ```jsx
 import React from 'react'
@@ -60,3 +72,11 @@ const MyComponent = () => {
   return <div>...</div>
 }
 ```
+
+## Contributing
+
+Contributions are welcome! If you encounter any issues or have suggestions for improvements, please open an issue or submit a pull request on the [GitHub repository](https://github.com/mahadev-mandal/react-device-sizes).
+
+## License
+
+React Device Sizes is released under the [MIT License](https://opensource.org/license/mit/). Please review the license file for more information.

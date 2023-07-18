@@ -2,6 +2,18 @@
   "name": "react-device-sizes",
   "version": "1.0.2",
   "description": "Create or use device breakpoints in react",
+  "keywords": [
+    "css",
+    "media query",
+    "matchMedia",
+    "responsive",
+    "breakpoints",
+    "component",
+    "viewport",
+    "media queries",
+    "screen sizes",
+    "react"
+  ],
   "scripts": {
     "build": "rollup -c",
     "lint": "eslint \"{**/*,*}.{js,ts,jsx,tsx}\"",

@@ -1,5 +1,6 @@
-import { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react';
 
+// sizes of device
 export interface DeviceSizesType {
   xsDown: boolean
   onlyXs: boolean
@@ -14,6 +15,7 @@ export interface DeviceSizesType {
   lgUp: boolean
 }
 
+// useDeviceSize hook return device sizes
 export function useDeviceSize() {
   const deviceSizes: DeviceSizesType = {
     xsDown: useMediaQuery('(max-width: 575.98px)'),
@@ -31,6 +33,7 @@ export function useDeviceSize() {
   return deviceSizes
 }
 
+// useMediaQuery hook return boolean
 const useMediaQuery = (query: string) => {
   const [matches, setMatches] = useState(false)
 

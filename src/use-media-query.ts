@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react'
 
+// useMediaQuery hook return boolean
 export interface MediaQueryType {
   query?: string
   width?: string | number
@@ -31,6 +32,7 @@ const JSObjToCSS = (JSObj: any) => {
   return cssString
 }
 
+// useMediaQuery hook return boolean
 export function useMediaQuery(props: { query: string } | MediaQueryType) {
   const [matches, setMatches] = useState(false)
 
